@@ -1,0 +1,66 @@
+// Shell Switcher Theme
+// Stylix-integrated dynamic theming
+// Colors automatically adapt to your current Stylix theme
+
+* {
+    background-color: transparent;
+    font: "JetBrains Mono 14";
+}
+
+window {
+    background-color: @base00;
+    border: 2px solid;
+    border-color: @base0D;
+    border-radius: 12px;
+    padding: 25px;
+    width: 520px;
+    location: center;
+    anchor: center;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    spacing: 20px;
+}
+
+inputbar {
+    children: [prompt];
+    background-color: @base01;
+    border-radius: 8px;
+    padding: 12px 18px;
+    border: 1px solid;
+    border-color: @base03;
+}
+
+prompt {
+    text-color: @base05;
+    font: "JetBrains Mono Bold 16";
+}
+
+listview {
+    spacing: 8px;
+    lines: 4;
+    scrollbar: false;
+}
+
+element {
+    padding: 14px 18px;
+    border-radius: 8px;
+    background-color: @base01;
+    text-color: @base04;
+    border: 1px solid;
+    border-color: @base02;
+}
+
+element selected {
+    background-color: @base02;
+    border: 2px solid;
+    border-color: @base0D;
+    text-color: @base05;
+    font: "JetBrains Mono Bold 14";
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
