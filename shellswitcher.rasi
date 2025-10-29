@@ -1,0 +1,22 @@
+/**
+ * Shell Switcher Rofi Launcher Configuration
+ * Dynamically themed using Stylix colors
+ */
+
+configuration {
+    show-icons: false;
+    display-drun: "Shell Switcher";
+}
+
+/* Import Stylix color definitions */
+* {
+    base00: #@base00@;  /* Background */
+    base01: #@base01@;  /* Lighter Background */
+    base02: #@base02@;  /* Selection Background */
+    base03: #@base03@;  /* Comments/Borders */
+    base04: #@base04@;  /* Dark Foreground */
+    base05: #@base05@;  /* Default Foreground */
+    base0D: #@base0D@;  /* Accent/Border Highlight */
+}
+
+@theme "themes/shellswitcher.rasi"
