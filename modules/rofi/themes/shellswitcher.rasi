@@ -1,16 +1,24 @@
-// Shell Switcher Theme
-// Stylix-integrated dynamic theming
-// Colors automatically adapt to your current Stylix theme
+// Shell Switcher Theme (neutral static palette)
 
 * {
     background-color: transparent;
     font: "JetBrains Mono 14";
 }
 
+/* Neutral palette */
+/* BG */
+* { bg0: #1e1e2e; bg1: #2b2b3b; bg2: #313244; }
+/* FG */
+* { fg0: #cdd6f4; fg1: #bac2de; }
+/* Accent */
+* { ac0: #89b4fa; ac1: #74c7ec; }
+/* Border */
+* { bd0: #45475a; }
+
 window {
-    background-color: @base00;
+    background-color: @bg0;
     border: 2px solid;
-    border-color: @base0D;
+    border-color: @ac0;
     border-radius: 12px;
     padding: 25px;
     width: 520px;
@@ -25,15 +33,15 @@ mainbox {
 
 inputbar {
     children: [prompt];
-    background-color: @base01;
+    background-color: @bg1;
     border-radius: 8px;
     padding: 12px 18px;
     border: 1px solid;
-    border-color: @base03;
+    border-color: @bd0;
 }
 
 prompt {
-    text-color: @base05;
+    text-color: @fg1;
     font: "JetBrains Mono Bold 16";
 }
 
@@ -46,17 +54,17 @@ listview {
 element {
     padding: 14px 18px;
     border-radius: 8px;
-    background-color: @base01;
-    text-color: @base04;
+    background-color: @bg1;
+    text-color: @fg0;
     border: 1px solid;
-    border-color: @base02;
+    border-color: @bd0;
 }
 
 element selected {
-    background-color: @base02;
+    background-color: @bg2;
     border: 2px solid;
-    border-color: @base0D;
-    text-color: @base05;
+    border-color: @ac0;
+    text-color: @fg0;
     font: "JetBrains Mono Bold 14";
 }
 
