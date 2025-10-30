@@ -4,7 +4,6 @@ Switch between desktop shells (DankMaterialShell, Noctalia, Caelestia, Waybar) l
 
 ## Features
 - Instant switching (no logout)
-- Stylix-based colors (base16)
 - Active shell detection
 - Hyprland auto-reload
 
@@ -26,6 +25,3 @@ Switch between desktop shells (DankMaterialShell, Noctalia, Caelestia, Waybar) l
 
 ## Shortcuts
 Bind: `SUPER+ALT+S → shellswitcher`
-
-## License
-MIT
