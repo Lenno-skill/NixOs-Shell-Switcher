@@ -1,6 +1,6 @@
 # Shell Switcher (NixOS + Hyprland)
 
-Switch between desktop shells (DankMaterialShell, Noctalia, Caelestia, Waybar) live on Hyprland. Rofi UI is dynamically themed via Stylix.
+Switch between desktop shells (DankMaterialShell, Noctalia, Caelestia, Waybar) live on Hyprland. 
 
 ## Features
 - Instant switching (no logout)
